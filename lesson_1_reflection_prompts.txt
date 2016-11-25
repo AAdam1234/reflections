@@ -30,4 +30,4 @@ With git checkout you can always revert any changes to the prior stage that work
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-To version web and windows applications and operating system scrpts.
+To version web and windows applications and operating system scripts.
