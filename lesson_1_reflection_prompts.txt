@@ -26,7 +26,7 @@ git log shows you the various commits for the project. Once you have the unique 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+With git checkout you can always revert any changes to the prior stage that worked.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
