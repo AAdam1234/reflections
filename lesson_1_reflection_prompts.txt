@@ -17,7 +17,7 @@ Maunual commits give the developer the choice of when to commit code changes whi
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Fill in your answer here
+Git is designed to version software development projects which require a multitude of mutually dependent files.  Google docs is concerned with word processing which usually has one unit of independent work.
 
 How can you use the commands git log and git diff to view the history of files?
 
