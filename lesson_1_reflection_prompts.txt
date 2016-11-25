@@ -21,7 +21,7 @@ Git is designed to version software development projects which require a multitu
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+git log shows you the various commits for the project. Once you have the unique id for thee commits you can use diff to examine the changes made been any two commits.
 
 How might using version control make you more confident to make changes that
 could break something?
