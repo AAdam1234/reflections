@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The .git directory is created with associated versioning control files.  To configure the directory for version management by git.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is a buffer that allows changes to be staged before being committed as a check pointed version.  It allows the user to select the order in which modified files are committed to git and also the opportunity to deselect files from the git commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+You can manually add files to the staging area before committing them. You can also use git reset --hard to remove staged units form the logical commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+You might want to try re-writing the code base but keep a working version to revert to should the rewrite fail.  A new branch from the main working branch would leave the working master in place.
+
+How do the diagrams help you visualize the branch structure?
+A graph representational enables the user to visualize the branch structure and commit history associated with each branch.  Orphaned branches are more easily recognised.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+It brings changes from a branch back into the master version of the code.  The master branch is a graph with nodes representing each commit after the branching of coins; the coins branch is itself a similar graph of committed nodes until its merged with latest commit on the master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Automatic merging may be faster but they could lead to illogical code changes that fail to recognise the unerlying reason for the conflict.  Manual conflict resolution while slower ensures that conflicts can be resolved so that the project files remain logically consistent.
